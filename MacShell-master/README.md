@@ -82,7 +82,7 @@ And here is an example of credentials being captured and sent to the server:
 
 -While the server does accept multiple client connections, you cannot jump between sessions currently. The server will interact with the first session it receives and once the operator exits that session it will move on to the next session in the queue.
 
--I have not yet developed any payloads for this (ex: malicious office doc with macro). Once I develop payloads, phishing could then be done using a MacShell payload.
+-I have only developed an MS Office Macro payload generator for this tool. Other types of payloads are also possible.
 
 -When the macro is used to phish and gain access, the user context is limited and all functions do not work. In that scenario you can use the "systeminfo", "users", and "addresses" commands to get basic info and the "prompt" commands to attempt to get creds.
 
