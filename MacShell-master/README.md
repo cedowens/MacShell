@@ -6,7 +6,7 @@ More info below:
 
 **_On C2 Server:_**
 
-1. Set up ssl
+1. Set up ssl (note: use a key size of at least 2048)
 
 -openssl req -new -newkey rsa:2048 -nodes -out ca.csr -keyout ca.key
 ![Image](pic1.jpg) 
