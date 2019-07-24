@@ -8,7 +8,7 @@ More info below:
 
 1. Set up ssl
 
--openssl req -new -newkey rsa:1024 -nodes -out ca.csr -keyout ca.key
+-openssl req -new -newkey rsa:2048 -nodes -out ca.csr -keyout ca.key
 ![Image](pic1.jpg) 
 
 -openssl x509 -trustout -signkey ca.key -days 365 -req -in ca.csr -out ca.pem
