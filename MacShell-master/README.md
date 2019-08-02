@@ -1,6 +1,8 @@
 # MacShell
 
-MacShell is a macOS post exploitation tool written in python using encrypted sockets. This tool consists of two scripts: a server script and a client script.
+MacShell is a macOS post exploitation tool written in python using encrypted sockets. I wrote this tool as a way for defenders and offensive security researchers to more easily understand the inner workings of python-based post exploitation tools on macOS.
+
+This tool consists of two scripts: a server script and a client script.
 
 More info below:
 
@@ -18,7 +20,8 @@ _*note: the server script is hard-coded to use ca.pem and ca.key, so keep these 
 
 2. Use generator.py to create the macshell scripts with the server's IP and port. generator.py also builds a macro that you can copy and paste into an MS Office document:
 
-Usage: generatory.py -s <C2 Server IP> -p <C2 Server Port>
+Usage: generatory.py -s [C2 Server IP] -p [C2 Server Port]
+
 -Example:
 ![Image](pic3.png)
 
