@@ -1,6 +1,6 @@
 # MacShell
 
-MacShell is a macOS post exploitation tool written in python using encrypted sockets. I wrote this tool as a way for defenders and offensive security researchers to more easily understand the inner workings of python-based post exploitation tools on macOS.
+MacShell is a macOS post exploitation tool written in python using encrypted sockets. I wrote this tool as a way for defenders and offensive security researchers to more easily understand the inner workings of python-based post exploitation tools on macOS. **This tool best serves for purple teaming exercises in order to help blue teams build detections for python-based post exploitation C2 frameworks**
 
 This tool consists of two scripts: a server script and a client script.
 
