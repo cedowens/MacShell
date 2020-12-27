@@ -6,7 +6,7 @@ echo Enter listening port for your MacShell server:
 
 read port
 
-python3 macro_generator.py -s 0.0.0.0 -p $port
+python3 generator.py -s 0.0.0.0 -p $port
 
 docker build -t macshell-docker .
 
